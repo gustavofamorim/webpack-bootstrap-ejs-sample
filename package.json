@@ -1,0 +1,50 @@
+{
+  "name": "sample_webpack",
+  "version": "0.0.1",
+  "description": "Sample webpack app with ejs support and scss compiling.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production --env prod",
+    "start": "webpack-dev-server --mode development --env dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustavo Amorim",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "autoprefixer": "^9.7.2",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "ejs-compiled-loader": "^1.1.0",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "worker-loader": "^2.0.0"
+  },
+  "browserslist": [
+    "last 1 major version",
+    ">= 1%",
+    "Chrome >= 45",
+    "Firefox >= 38",
+    "Edge >= 12",
+    "Explorer >= 10",
+    "iOS >= 9",
+    "Safari >= 9",
+    "Android >= 4.4",
+    "Opera >= 30"
+  ]
+}
